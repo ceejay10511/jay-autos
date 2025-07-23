@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    background-color:aliceblue;
+color: #161414 !important;    
+}
+
+
+h1{
+text-align: ;
+color: black;
+    font-size: 4rem;
+}
+
+.navbar{
+     background-color: ;
+     padding: 0;
+     width: 100%;
+     padding-bottom: 0;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-end;
+    background-image: url(jay\ blue.jpeg);
+    background-size: cover;
+    height: 50vh;
+    width:100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+}
+
+#intro{
+    padding: 10px;
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .container{
+        height: 30vh;
+    }
+    *{
+     
+    }
+}
